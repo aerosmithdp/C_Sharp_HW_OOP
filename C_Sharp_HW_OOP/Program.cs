@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//Test string for GitHub
+
 namespace C_Sharp_HW_OOP
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test string for GitHub");
             Console.Write("Hello!\nThis is a program for adding new employees.\n\nEnter the number of employees: ");
             int numberEmployees = Check.ForNumberWithoutZero(Console.ReadLine());
             string name; int salary; int subordinates;
